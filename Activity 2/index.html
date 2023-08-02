@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 2</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Contact Us -->
+        <section class="section contact-form">
+            <h1>Contact Us</h1>
+            <form action="#" method="POST">
+                <div class="form-group">
+                    <label for="contact_name">Name:</label>
+                    <input type="text" id="contact_name" name="name" placeholder="Your Name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" placeholder="Write your message here..." rows="4" cols="50" required></textarea>
+                </div>
+
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+
+        <!-- Log In -->
+        <section class="section login-form">
+            <h1>Login</h1>
+            <form action="#" method="POST">
+                <div class="form-group">
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" placeholder="Your Username" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" placeholder="Your Password" required>
+                </div>
+
+                <input type="submit" value="Login">
+            </form>
+        </section>
+ 
+        <!-- Survey -->
+        <section class="section survey-form">
+            <h1>Survey</h1>
+            <form action="#" method="POST">
+                <div class="form-group">
+                    <label for="survey_name">Name:</label>
+                    <input type="text" id="survey_name" name="name" placeholder="Your Name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="age">Age:</label>
+                    <input type="number" id="age" name="age" placeholder="Your Age" required>
+                </div>
+
+                <div class="form-group">
+                    <label>Gender:</label><br>
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender" value="female" required>
+                    <label for="female">Female</label>
+                    <input type="radio" id="other" name="gender" value="other" required>
+                    <label for="other">Other</label>
+                    <input type="radio" id="other" name="gender" value="other" required>
+                </div>
+
+                <div class="form-group">
+                    <label>Which programming language do you know?</label><br>
+                   
+                    <label for="java">Java</label>
+                    <input type="checkbox" id="java" name="programming_language" value="Java">
+
+                    <label for="python">Python</label>
+                    <input type="checkbox" id="python" name="programming_language" value="Python">
+
+                   
+                    <label for="javascript">JavaScript</label>
+                    <input type="checkbox" id="javascript" name="programming_language" value="JavaScript">
+                    <!-- Add more programming languages as needed -->
+                </div>
+
+                <div class="form-group">
+                    <label for="comments">Comments:</label><br>
+                    <textarea id="comments" name="comments" placeholder="Your Comments" rows="4" cols="50"></textarea>
+                </div>
+
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </div>
+</body>
+</html>
